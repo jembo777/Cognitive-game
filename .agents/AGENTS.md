@@ -19,6 +19,7 @@ Cognitive-game/
 │   └── AGENTS.md          # Reglas y contexto para modelos de IA
 ├── src/
 │   └── main.py            # Punto de entrada principal y lógica de los juegos
+├── requirements.txt       # Dependencias de Python (si aplica)
 ├── .gitignore             # Archivos y carpetas a ignorar por git
 └── README.md              # Documentación general del proyecto
 ```

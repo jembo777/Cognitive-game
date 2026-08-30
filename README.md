@@ -9,6 +9,7 @@ El juego genera una meta aleatoria y un tiempo límite. Tu objetivo es alcanzar 
 
 ## 📁 Estructura del proyecto
 - `src/`: Contiene el código fuente del juego (`main.py`).
+- `requirements.txt`: Lista de dependencias del proyecto.
 - `.agents/`: Reglas y contexto para asistencia con IA (`AGENTS.md`).
 - `.gitignore`: Archivos y carpetas excluidos del control de versiones.
 
