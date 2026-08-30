@@ -6,7 +6,6 @@ print('''
 PRUEBA PARA EL JUEGO
 ====================''')
 
-print("Hola Mundo")
 
 duracion_segundos = 10
 tiempo_limite = time.time() + duracion_segundos
