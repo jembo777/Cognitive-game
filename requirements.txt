@@ -1,0 +1,2 @@
+# Este proyecto utiliza únicamente librerías estándar de Python (random, time, msvcrt).
+# No se requieren paquetes externos por el momento.
