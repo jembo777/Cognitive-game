@@ -1,10 +1,16 @@
 # Instrucciones para Agentes de IA (.agents/AGENTS.md)
 
-Este repositorio contiene un juego cognitivo simple desarrollado en Python. La prioridad es mantener el código limpio, fácil de entender y sin complejidad innecesaria.
+Este repositorio contiene un juego cognitivo simple desarrollado en Python. 
 
-## 🎯 Visión del Proyecto
-- Desarrollar minijuegos de agilidad mental y entrenamiento cognitivo (tiempo de reacción, memoria, cálculo rápido, etc.).
-- Mantener la arquitectura simple y directa para facilitar el aprendizaje y la iteración rápida.
+> ⚠️ **REGLA FUNDAMENTAL**: El desarrollador está **aprendiendo Python**. La prioridad absoluta es mantener el código simple, directo, legible y fácil de entender. **NO sobrecomplicar**.
+
+---
+
+## 🎯 Visión y Filosofía del Proyecto
+- Minijuegos de agilidad mental y entrenamiento cognitivo en consola.
+- Código en nivel básico/principiante (estructuras de control directas: `if`, `while`, `for`, funciones simples).
+- Evitar sobreingeniería: NO usar patrones complejos, POO excesiva, programación asíncrona (`asyncio`), hilos (`threading`) ni librerías externas salvo que se pida expresamente.
+- Usar funciones de la biblioteca estándar de Python (e.g. `random`, `time`, `msvcrt` en Windows).
 
 ## 📁 Estructura del Proyecto
 ```text
@@ -18,13 +24,14 @@ Cognitive-game/
 ```
 
 ## 🛠️ Directrices de Desarrollo
-1. **Simplicidad**: Evitar sobreingeniería o patrones de diseño innecesariamente complejos.
-2. **Código legible**:
-   - Nombres de variables y funciones descriptivos en español.
-   - Comentarios breves donde la lógica lo requiera.
-   - Modularizar los diferentes tipos de juegos o retos dentro de funciones o módulos en `src/`.
-3. **Dependencias**: Priorizar el uso de la biblioteca estándar de Python (`time`, `random`, etc.) salvo que se justifique una librería externa.
-4. **Manejo de entrada/errores**: Asegurar que las entradas por consola no rompan la ejecución si el usuario ingresa un valor no esperado (e.g. `try-except ValueError` al convertir con `int()`).
+1. **Simplicidad al máximo**: Escribir la solución más corta y clara posible.
+2. **Código didáctico y comentado**:
+   - Variables y mensajes en español con nombres descriptivos.
+   - Comentarios breves y claros explicando conceptos nuevos.
+3. **Manejo sencillo de entradas**:
+   - Para capturas de teclas directas sin `Enter` en Windows, usar `msvcrt.getwch()`.
+4. **Respuestas claras**:
+   - Explicar los cambios de manera sencilla, sin tecnicismos innecesarios.
 
 ## 🚀 Cómo ejecutar
 ```bash
